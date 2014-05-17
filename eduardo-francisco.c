@@ -33,7 +33,7 @@ int main()
 		if (n < 0 || n > 100) printf("\nValor inválido. Insira números entre 1 e 100.\n");
 		else {
 			if (n == 0) {
-                printf("\nTotal de elementos na lista: %d\n", countLista(&l));
+                printf("\nTotal de elementos na lista: %d\n\n", countLista(&l));
                 return 0;
             }
             else createTest(&l, n);
